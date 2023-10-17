@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container m-auto flex justify-center items-center">
+        <div id="mainDiv" class=" border-2 bg-slate-400 w-1/2 h-screen rounded-lg ">
+            <img src="./static/signup.jpg" class="rounded-lg w-full h-full p-2 " alt="signup" srcset="">
+        </div>
+        <div id="infoDetail" class="m-4 text-center text-xl  bg-slate-400 w-auto h-auto w-f">
+            <table class=" m-2 p-2 border">
+                <thead class="uppercase">
+                    <tr>Welcome Onboard</tr>
+                </thead>
+                <tbody class="capitalize p-4 block text-start">
+                    <tr>
+                        <td>First Name</td>
+                        <td><input class="m-4" type="text" name="" id="fname"></td>
+                        <td>Last Name</td>
+                        <td><input type="text" class="m-4" name="" id="lname"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td class=""><input class="m-4" type="email" name="email" id="email" ></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input class="m-4" type="date" name="" id=""></td>
+                        <td>Country</td>
+                        <td><select class="m-4" class="w-56" id="countries">
+                        </select></td>
+                    </tr>
+                    <tr class="">
+                        <td class="">Password</td>
+                        <td class=""><input class="m-4" type="password" name="password" id="password"></td>
+                        <td class="">Confirm Password</td>
+                        <td><input class="m-4" type="password" name="confirmPassword" id="confirmPassword"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="m-4"><button  type="button" class="border-2  bg-green-600 text-slate-50 text-lg px-6 rounded-lg py-1">Submit</button></div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
